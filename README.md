@@ -1,107 +1,143 @@
-# Ecommerce Performance Dashboard (Power BI)
+# E-Commerce Sales Performance Dashboard (Power BI)
 
+## Project Overview
+
+This project presents an interactive E-Commerce Sales Performance Dashboard built using Power BI. The goal of this dashboard is to help stakeholders understand revenue trends, customer behavior, and product performance, enabling data-driven decision-making.
+
+The dashboard is designed with a strong focus on business storytelling, not just visualization, highlighting key insights and actionable recommendations.
+
+---
+
+## Dashboard
 ![Dashboard Preview](images/dashboard.png)
+---
 
-## Overview
+## Business Objective
 
-This project presents an interactive Power BI dashboard built to analyze ecommerce sales performance across products, regions, and time.
+The primary objective of this dashboard is to answer key business questions:
 
-The goal of this dashboard is to understand revenue trends, identify top-performing products and customers, and uncover regional performance patterns that support business decision-making.
+* Which regions contribute the most to revenue?
+* How does revenue trend over time?
+* Which products and customers drive the highest sales?
+* Are there any seasonal patterns or customer behavior trends?
 
 ---
 
-## Key Metrics
+## Key Features
 
-* Total Revenue: ₹2.48M
-* Total Orders: 300
-* Unique Customers: 95
-* Average Order Value (AOV): ₹8.26K
+### KPI Metrics
 
----
-
-## Dashboard Features
-
-* Revenue distribution by region
-* Monthly revenue trend analysis
-* Product-wise revenue comparison
-* Top 3 customers by revenue contribution
-* Interactive slicers for category, region, and product filtering
+* Total Revenue
+* Average Order Value (AOV)
+* Total Orders
+* Unique Customers
+* Revenue per Customer
+* Orders per Customer
 
 ---
 
-## Tools & Skills Used
+### Revenue by Region
 
-* Power BI
-* DAX (for calculated measures such as Total Revenue and AOV)
-* Power Query (data cleaning and transformation)
-* Data Modeling
-* Data Visualization
+* Donut chart showing revenue distribution across regions
+* Drill-down functionality enabled → Users can explore:
 
----
-
-## Key Insights
-
-### Regional Performance
-
-North and West regions contribute the highest share of revenue, each accounting for approximately 28 percent. East and South regions contribute relatively less, indicating potential areas for growth and targeted sales strategies.
+  * Region → Product → Customer
+* Helps identify regional performance and deeper contribution levels
 
 ---
 
 ### Monthly Revenue Trend
 
-Revenue shows fluctuations throughout the year, with a noticeable dip around June and July. The highest revenue is observed during October and November, suggesting seasonal demand patterns, possibly driven by festive or promotional periods.
+* Line chart showing monthly revenue patterns
+* Highlights seasonal peaks (Q4) and mid-year dips
+* Useful for demand planning and forecasting
 
 ---
 
 ### Product Performance
 
-Mixer, Shoes, and Phone are the top-performing products in terms of revenue. The revenue distribution across products is relatively balanced, indicating that no single product dominates completely. This provides an opportunity to strengthen top performers through promotions.
+* Bar chart with gradient conditional formatting
+* High-performing products are shown in darker shades
+* Enables quick identification of top and low-performing products
 
 ---
 
-### Customer Contribution
+### Customer Analysis
 
-The top three customers contribute a significant portion of revenue, each generating between ₹70K and ₹90K. This highlights the presence of high-value customers who can be targeted through retention strategies such as loyalty programs.
-
----
-
-### Business Observation
-
-With 95 customers generating ₹2.48M in revenue, the average order value is relatively high. This suggests that customers are either purchasing higher-value products or placing bulk orders.
+* Top customers highlighted using ranking-based conditional formatting
+* Top contributors are visually emphasized while others are de-emphasized
+* Helps identify key revenue-driving customers
 
 ---
 
-## Files Included
+### Insights Panel
 
-* sales_dashboard.pbix (Power BI file)
-* orders.csv (dataset)
-* dashboard.png (dashboard preview image)
+The dashboard includes built-in business insights such as:
+
+* Revenue concentration in North & West regions (~57%)
+* Seasonal sales peaks in Q4 and dips mid-year
+* Moderate repeat purchase behavior (3.16 orders/customer)
+* Customer concentration risk due to dependency on top customers
+
+Each insight is paired with actionable recommendations to support business decisions.
+
+---
+
+## Tools & Technologies
+
+* Power BI (Data Visualization & Dashboarding)
+* DAX (Data Analysis Expressions)
+* Power Query (Data Transformation)
+
+---
+
+## Key Techniques Used
+
+* Data Modeling & Relationships
+* KPI Calculations using DAX
+* Conditional Formatting (Color Scale & Rule-Based)
+* Ranking using DAX (RANKX)
+* Interactive Filters (Slicers)
+* Drill-down functionality
+* Business storytelling with insights
+
+---
+
+## Business Impact
+
+This dashboard helps businesses:
+
+* Identify high-performing regions and expansion opportunities
+* Understand customer purchase behavior and improve retention strategies
+* Detect seasonal demand patterns for better inventory planning
+* Reduce dependency on a small group of customers
+* Make faster, data-driven decisions
 
 ---
 
 ## How to Use
 
-1. Download the PBIX file
-2. Open it in Power BI Desktop
-3. Use slicers such as Category, Region, and Product to interact with the dashboard
+1. Use slicers (Region, Category, Product) to filter data
+2. Explore drill-down in the region chart to analyze deeper levels
+3. Observe trends and patterns across visuals
+4. Refer to the insights panel for key takeaways
 
 ---
 
-## Project Objective
+## Project Highlights
 
-The objective of this project was to build an end-to-end dashboard that transforms raw data into meaningful insights using Power BI, while applying data modeling, DAX, and visualization best practices.
+* Focus on business problem-solving, not just visuals
+* Clean and professional dashboard design
+* Strong use of conditional formatting for storytelling
+* Interview-ready project with actionable insights
 
----
-
-## Future Improvements
-
-* Add profit and cost analysis
-* Implement customer segmentation
-* Introduce forecasting for revenue trends
-* Add drill-through and advanced interactivity
-
----
+  ---
 
 ## Author
 
-Ayush Mahale
+Ayush
+Aspiring Data Analyst | Power BI Enthusiast
+
+---
+
+
